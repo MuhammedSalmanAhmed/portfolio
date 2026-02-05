@@ -178,10 +178,6 @@ The portfolio is fully responsive with breakpoints:
 
 ## Contact
 
-- **Email**: salmanahmedktk@hotmail.com
+- **Email**: msalmanahmed2003@gmail.com
 - **Location**: Karachi, Pakistan
-- **Education**: NED University of Engineering and Technology
-
----
-
-Built with ❤️ using Next.js and Tailwind CSS
+- **Education**: National University of Sciences and Technology, Islamabad
