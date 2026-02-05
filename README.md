@@ -179,5 +179,5 @@ The portfolio is fully responsive with breakpoints:
 ## Contact
 
 - **Email**: msalmanahmed2003@gmail.com
-- **Location**: Karachi, Pakistan
+- **Location**: Mianwali, Pakistan
 - **Education**: National University of Sciences and Technology, Islamabad
