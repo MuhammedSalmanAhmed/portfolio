@@ -54,7 +54,7 @@ const Contact = () => {
                       href="mailto:salmanahmedktk@hotmail.com"
                       className="text-gray-600 hover:text-primary transition-colors"
                     >
-                      salmanahmedktk@hotmail.com
+                      msalmanahmed2003@gmail.com
                     </a>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-secondary">Location</h4>
-                    <p className="text-gray-600">Karachi, Pakistan</p>
+                    <p className="text-gray-600">Chashma, Mianwali, Pakistan</p>
                   </div>
                 </div>
               </div>

@@ -96,7 +96,7 @@ const Footer = () => {
               </p>
               <p>
                 <strong className="text-white">Education:</strong><br />
-                NED University of Engineering and Technology
+                National University of Sciences and Technology, NUST.
               </p>
             </div>
           </div>
@@ -105,10 +105,6 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300 flex items-center justify-center flex-wrap">
             <span>© {currentYear} Muhammad Salman Ahmed. All rights reserved.</span>
-            <span className="mx-2">•</span>
-            <span className="flex items-center">
-              Built with <Heart size={16} className="mx-1 text-red-500" /> using Next.js
-            </span>
           </p>
         </div>
       </div>

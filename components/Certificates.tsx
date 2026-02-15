@@ -6,19 +6,19 @@ const Certificates = () => {
   const certificates = [
     {
       title: 'Machine Learning Internship',
-      issuer: 'BYS (Build Your Startup)',
-      date: 'Recent',
+      issuer: 'BYS (Beyond Solutions)',
+      date: 'June 2024 to August 2024',
       description: 'Successfully completed comprehensive Machine Learning internship program',
       file: '/Internship Certificate M Salman Ahmed BYS ML.pdf',
       skills: ['Machine Learning', 'Data Science', 'Python', 'Model Development']
     },
     {
-      title: 'Machine Learning Certificate',
+      title: 'Game Development Certificate',
       issuer: 'M Labs',
-      date: 'Recent',
-      description: 'Advanced training in Machine Learning algorithms and applications',
+      date: 'June 2024 to August 2024',
+      description: 'Advanced training in Game Development and related technologies',
       file: '/Muhammad Salman Ahmed M Labs Certifiacte.pdf',
-      skills: ['AI/ML', 'Deep Learning', 'Neural Networks', 'Data Analysis']
+      skills: ['Game Development', 'Unity', 'C#', '3D Modeling']
     },
   ]
 

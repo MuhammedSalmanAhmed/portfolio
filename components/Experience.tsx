@@ -5,26 +5,55 @@ import { Briefcase, Calendar } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: 'Machine Learning Intern',
-      company: 'M Labs',
-      period: 'Recent',
-      description: 'Worked on cutting-edge machine learning projects, implementing AI solutions and contributing to data-driven decision making.',
+      title: 'Project Manager Executive',
+      company: 'MTBC CareCloud – Bagh, AJK, Pakistan',
+      period: 'Oct 2025 – Present',
+      description:
+        'Coordinating delivery of AI-powered healthcare products while staying actively involved in technical implementation and cross-team collaboration.',
       responsibilities: [
-        'Developed and deployed ML models for real-world applications',
-        'Collaborated with cross-functional teams on AI initiatives',
-        'Conducted data analysis and model optimization',
-      ]
+        'Coordinating delivery of AI-powered healthcare products with technical oversight',
+        'Translating product requirements into executable technical tasks with AI, QA, DevOps, and engineering teams',
+        'Overseeing sprint execution, release coordination, and quality validation',
+        'Supporting architecture discussions, feasibility analysis, and cross-team dependency management',
+      ],
     },
     {
-      title: 'Machine Learning Intern',
-      company: 'BYS (Build Your Startup)',
-      period: 'Recent',
-      description: 'Contributed to innovative startup projects, applying machine learning techniques to solve business challenges.',
+      title: 'Junior AI Engineer',
+      company: 'MTBC CareCloud – Bagh, AJK, Pakistan',
+      period: 'Jun 2025 – Oct 2025',
+      description:
+        'Developed and supported AI-driven healthcare features targeting the US market, contributing across the full project lifecycle.',
       responsibilities: [
-        'Implemented ML algorithms for business automation',
-        'Participated in agile development processes',
-        'Supported product development with data insights',
-      ]
+        'Developed AI-driven features for healthcare applications targeting the US market',
+        'Worked on RAG-based document processing solutions and AI-assisted automation workflows',
+        'Supported feature development, model integration, and system optimization',
+        'Collaborated with QA and DevOps teams for testing, deployment, and post-release monitoring',
+        'Worked closely with senior engineers and project managers across full project lifecycles',
+      ],
+    },
+    {
+      title: 'Data Science Intern',
+      company: 'MTBC CareCloud – Hybrid (Islamabad, Pakistan)',
+      period: 'Mar 2025 – Jun 2025',
+      description:
+        'Worked under mentorship to build foundational skills in healthcare data analytics and processing.',
+      responsibilities: [
+        'Assisted in data cleaning, preprocessing, and analysis of healthcare datasets',
+        'Supported reporting and analytics tasks for internal projects',
+        'Gained hands-on experience in healthcare data workflows and best practices',
+      ],
+    },
+    {
+      title: 'Game Development Intern',
+      company: 'Mindstorm Studios – Islamabad, Pakistan',
+      period: 'Jun 2024 – Aug 2024',
+      description:
+        'Learned core game development principles and contributed to delivering a production-ready mobile game.',
+      responsibilities: [
+        'Learned programming, art, and game design fundamentals',
+        'Developed a mobile game using Unity Engine and C# in a 4-member team',
+        'Followed a structured development pipeline and delivered a production-ready build',
+      ],
     },
   ]
 
@@ -60,7 +89,9 @@ const Experience = () => {
               <p className="text-gray-600 mb-4">{exp.description}</p>
 
               <div className="space-y-2">
-                <h4 className="font-semibold text-secondary">Key Responsibilities:</h4>
+                <h4 className="font-semibold text-secondary">
+                  Key Responsibilities:
+                </h4>
                 <ul className="space-y-2">
                   {exp.responsibilities.map((resp, idx) => (
                     <li key={idx} className="flex items-start">
@@ -77,5 +108,6 @@ const Experience = () => {
     </section>
   )
 }
+
 
 export default Experience

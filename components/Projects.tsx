@@ -5,44 +5,37 @@ import { ExternalLink, Github } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      title: 'AI-Powered Project Management System',
-      description: 'Developed an intelligent project management platform utilizing machine learning to predict project timelines, resource allocation, and risk assessment.',
-      technologies: ['Python', 'TensorFlow', 'React', 'Node.js'],
+      title: 'Life Sync (FYDP) – AI-Enabled Blood Donation App',
+      description:
+        'An AI-powered mobile application designed to connect blood donors with patients, enabling faster and smarter blood arrangement through intelligent donor matching.',
+      technologies: ['Flutter', 'Firebase', 'Python', 'Machine Learning'],
       highlights: [
-        'Automated task scheduling using ML algorithms',
-        'Real-time project analytics dashboard',
-        'Predictive risk management features',
-      ]
+        'Connected donors and patients through a real-time in-app communication system',
+        'Implemented AI-based donor ranking to prioritize nearby and willing donors',
+        'Developed predictive matching system to speed up emergency blood arrangements',
+      ],
     },
     {
-      title: 'Machine Learning Model Optimization',
-      description: 'Created an automated framework for optimizing ML models, reducing training time by 40% and improving accuracy through hyperparameter tuning.',
-      technologies: ['Python', 'PyTorch', 'Scikit-learn', 'Docker'],
+      title: 'Kingdom Defence – Mobile Game',
+      description:
+        'A mobile game developed during M-Labs internship featuring a slingshot-style cannon defense mechanism to protect a castle from incoming enemies.',
+      technologies: ['Unity', 'C#', 'Game Physics', 'Mobile Development'],
       highlights: [
-        'Automated hyperparameter optimization',
-        'Model performance monitoring',
-        'Scalable deployment pipeline',
-      ]
+        'Designed slingshot-based cannon mechanics for projectile launching',
+        'Implemented enemy wave logic and castle defense system',
+        'Optimized gameplay physics and performance for mobile devices',
+      ],
     },
     {
-      title: 'Data Analytics Dashboard',
-      description: 'Built comprehensive analytics dashboard for visualizing complex datasets and generating actionable insights for business decision-making.',
-      technologies: ['Python', 'Pandas', 'Plotly', 'FastAPI'],
+      title: 'AI – Patient Documents Chatbot',
+      description:
+        'A RAG-based AI chatbot developed to help patients understand medical documents received after healthcare encounters.',
+      technologies: ['Python', 'RAG', 'LLMs', 'Vector Databases'],
       highlights: [
-        'Interactive data visualizations',
-        'Real-time data processing',
-        'Custom reporting features',
-      ]
-    },
-    {
-      title: 'NLP-Based Document Analyzer',
-      description: 'Implemented natural language processing solution for automated document classification and information extraction.',
-      technologies: ['Python', 'spaCy', 'BERT', 'Flask'],
-      highlights: [
-        'Automated document categorization',
-        'Named entity recognition',
-        'Sentiment analysis capabilities',
-      ]
+        'Implemented Retrieval-Augmented Generation (RAG) pipeline for document understanding',
+        'Enabled contextual question-answering over patient medical documents',
+        'Improved accessibility and comprehension of complex healthcare information',
+      ],
     },
   ]
 
@@ -53,7 +46,7 @@ const Projects = () => {
           Featured Projects
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          A showcase of innovative solutions combining project management expertise with AI/ML technologies
+          A showcase of innovative AI solutions, mobile applications, and interactive systems
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -101,5 +94,6 @@ const Projects = () => {
     </section>
   )
 }
+
 
 export default Projects

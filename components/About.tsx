@@ -22,8 +22,8 @@ const About = () => {
                 </h3>
                 <p className="text-gray-600">
                   Experienced Project Manager with a strong foundation in AI and Machine Learning. 
-                  Currently pursuing a Bachelor of Science in Computer Science from NED University 
-                  of Engineering and Technology (2022-2026).
+                  Completed a Bachelor of Science in Computer Science from National University 
+                  of Engineering and Technology, NUST (2021-2025).
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const About = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
-                <span className="text-gray-700">BS Computer Science Student (2022-2026)</span>
+                <span className="text-gray-700">BE Software Engineering Student (2021-2025)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <span className="w-2 h-2 bg-primary rounded-full"></span>

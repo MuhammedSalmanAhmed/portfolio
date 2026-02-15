@@ -11,7 +11,6 @@ const Skills = () => {
         'Agile & Scrum Methodologies',
         'Team Leadership',
         'Resource Planning',
-        'Risk Management',
         'Stakeholder Communication',
         'Project Planning & Execution',
       ]
@@ -22,8 +21,6 @@ const Skills = () => {
       skills: [
         'Machine Learning Algorithms',
         'Deep Learning',
-        'Natural Language Processing',
-        'Computer Vision',
         'Model Deployment',
         'Data Analysis',
       ]
@@ -33,7 +30,6 @@ const Skills = () => {
       icon: <Code size={32} />,
       skills: [
         'Python Programming',
-        'TensorFlow & PyTorch',
         'Data Structures & Algorithms',
         'SQL & Database Management',
         'Version Control (Git)',
@@ -48,7 +44,7 @@ const Skills = () => {
         'Problem Solving',
         'Communication',
         'Time Management',
-        'Critical Thinking',
+        'Ability to work under pressure',
         'Adaptability',
       ]
     },
